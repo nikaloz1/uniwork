@@ -27,3 +27,4 @@ if Fcounter < Bcounter:
     for i in range(len(queue)):
         if queue[i] == "F":
             print("Person in position", i, "please flip your cap backwards") 
+print(queue)
