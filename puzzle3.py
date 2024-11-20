@@ -52,14 +52,14 @@ def magictrick():
     remaining_cards = [card for card in chosen_cards if card != secret_card]
     random.shuffle(remaining_cards)
     
-    # output key and the rest three cards
+    # output key and the selection of three cards
     print("\nAssistant shows these cards to the Magician:")
     shown_cards = [key_card] + remaining_cards[:3]
     for card in shown_cards:
         print(card)
     
     # the secret card
-    print("\nMagician determines the secret card is:")
+    print("\nMagician guesses the secret card is:")
     print(secret_card)
 
 
